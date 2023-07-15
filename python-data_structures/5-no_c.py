@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
+    new_s = ""
     for x in my_string:
-        new = [x if x != "c" or x != "C" else (my_string)]
+        if x != "c" or x != "C":
+            new += x
         return (new)
