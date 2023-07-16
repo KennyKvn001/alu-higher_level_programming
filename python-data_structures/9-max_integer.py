@@ -4,6 +4,5 @@ def max_integer(my_list=[]):
         return None
     else:
         for m in range(len(my_list)):
-            m = max(my_list)
-            print(":d".format(my_list[m]))
+            print("{:d}".format(m))
 
