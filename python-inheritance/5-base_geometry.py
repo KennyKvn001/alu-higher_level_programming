@@ -1,4 +1,4 @@
-#!/usrr/bin/python3
+#!/usr/bin/python3
 """Define an inherited class BaseGeometry"""
 
 
