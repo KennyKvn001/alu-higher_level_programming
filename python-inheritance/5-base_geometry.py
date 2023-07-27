@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Define an inherited class BaseGeometry"""
+"""Defines an empty class BaseGeometry."""
 
 
-class BaseGoemetry:
-    """represents an empty class"""
+class BaseGeometry:
+    """Represent base geometry."""
     pass
