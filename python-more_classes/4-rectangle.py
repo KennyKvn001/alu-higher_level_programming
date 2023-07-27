@@ -2,7 +2,6 @@
 """Define a class Rectangle"""
 
 
-
 class Rectangle:
     """Instantiation with optional new width and height"""
 
