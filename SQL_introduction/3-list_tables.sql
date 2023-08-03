@@ -1,2 +1,2 @@
---This script lists of all the tables of a database in my MySQL server.
-SHOW TABLES;
+-- deletes the database hbtn_0c_0 if it exists
+DROP DATABASE IF EXISTS hbtn_0c_0;
