@@ -5,7 +5,7 @@ Usage: ./9-starwars.py <search string>
   - The search request is sent to the Star Wars API search people endpoint.
 """
 import sys
-import requests
+from requests import get, auth
 
 
 if __name__ == "__main__":
