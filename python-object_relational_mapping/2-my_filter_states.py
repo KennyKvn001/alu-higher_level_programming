@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Takes in an argument and displays all values in the states table 
+"""Takes in an argument and displays all values in the states table 
 of hbtn_0e_0_usa whose name matches the argument.
    usage : ./2-my_filter_states.py <mysql username>\
                                    <mysql passwd>\
