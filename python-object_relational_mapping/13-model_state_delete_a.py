@@ -6,6 +6,11 @@ Usage: ./13-model_state_delete_a.py <mysql username> /
                                     <mysql password> /
                                     <database name>"""
 
+import sys
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from model_state import State
+
 if __name__ == "__main__":
 
     mysql_username = sys.argv[1]
